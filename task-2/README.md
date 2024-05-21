@@ -2,7 +2,7 @@
 
 Digital security is an important aspect in the digital world, one of the most interesting topics is the security of a file. One way to secure the contents of a file is to encode the contents of the file. Encode is a process carried out to secure data and information and make it unreadable easily if there is no special knowledge. One of the most famous encodes is Base64 encode.
 
-Your task is to design a security system for user files, with the following task description:
+Your task is to design a security system for user files using FUSE in [fuse.c](./fuse.c), with the following task description:
 
 - a. Clone the [target directory](https://github.com/hqlco/target.git) and create 4 users on Linux with usernames according to the contents of the folder in the target directory (password is up to you).
 
@@ -50,7 +50,7 @@ Note:
 
 Keamanan digital adalah suatu aspek penting dalam dunia digital, salah satu topik yang sangat menarik adalah keamanan dari suatu file. Cara cara untuk mengamankan isi dari suatu file salah satunya dapat menggunakan encode pada isi file tersebut. Encode adalah sebuah proses yang dilakukan untuk mengamankan data dan informasi dan membuatnya menjadi tidak bisa dibaca dengan mudah jika tidak ada pengetahuan khusus. Adapun salah satu encode paling terkenal adalah encode Base64.
 
-Tugas kalian adalah merancang suatu sistem keamanan pada file file user, dengan penjabaran tugas sebagai berikut:
+Tugas kalian adalah merancang suatu sistem keamanan pada file file user menggunakan FUSE pada file [fuse.c](./fuse.c), dengan penjabaran tugas sebagai berikut:
 
 - a. Clone [direktori target](https://github.com/hqlco/target.git) dan buatlah 4 user pada linux dengan username sesuai isi folder pada direktori target (password dibebaskan).
 
