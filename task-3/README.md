@@ -239,7 +239,7 @@ bcc -ansi -c <input_file> -o <output_file>
 ld86 -o <output_file> -d [file1.o file2.o ...]
 ```
 
-### Deskripsi Tugas
+### Tasks
 
 - a. Implement the `printString` function in `kernel.c` that will display a string on the screen.
 
