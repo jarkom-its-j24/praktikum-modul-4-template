@@ -21,7 +21,9 @@ Your task is to design a security system for user files, with the following task
 
 - c. Make it so that each user can't add, change, or delete folders or files in folders they don't own.
 
-  relevant command for points b and c:
+- d. Make it so that users can add, change, or delete folders and files in their own folders.
+
+  relevant command for points c and d:
 
   - mkdir
   - rmdir
@@ -30,8 +32,6 @@ Your task is to design a security system for user files, with the following task
   - cp
   - mv
   - etc.
-
-- d. Make it so that users can add, change, or delete folders and files in their own folders.
 
 - e. All the files inside of a folder will be encoded if accessed by a user who is not the owner of that folder. (using Base64 encoding).
 
@@ -69,8 +69,10 @@ Tugas kalian adalah merancang suatu sistem keamanan pada file file user, dengan 
 
 - c. Buatlah agar tiap user tidak dapat menambah, mengubah, maupun menghapus folder maupun file dalam folder yang bukan miliknya.
 
-  relevant command for points b and c:
+- d. Buatlah agar user dapat menambah, mengubah, maupun menghapus folder maupun file dalam folder miliknya.
 
+  command yang relevan untuk poin c and d:
+  
   - mkdir
   - rmdir
   - touch
@@ -78,8 +80,6 @@ Tugas kalian adalah merancang suatu sistem keamanan pada file file user, dengan 
   - cp
   - mv
   - etc.
-
-- d. Buatlah agar user dapat menambah, mengubah, maupun menghapus folder maupun file dalam folder miliknya.
 
 - e. Semua isi file akan ter-encode jika diakses oleh selain user pemilik folder tersebut (menggunakan encoding Base64).
 
